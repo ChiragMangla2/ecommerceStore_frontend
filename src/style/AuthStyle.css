@@ -1,0 +1,43 @@
+.form-container{
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    min-height: 90vh;
+}
+
+.form-bg{
+    min-height: 90vh;
+    background-image: url("../../public/images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mform{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.title{
+    font-family: "Playfair Display", sarif;
+}
+
+.form-container form input{
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+
+.login-form{
+    min-width: 22vw;
+    min-height: 20vh;
+}
+
+@media screen and (max-width: 480px) {
+
+    .login-form{
+        width: 80vw;
+    }
+
+}
+
+
